@@ -15,11 +15,11 @@ Before running the application, you need to have the following prerequisites ins
 
 3. **python-chess**: Install the python-chess library using pip, which provides chessboard manipulation and move validation. You can install it using the following command: pip install chess
    
-4. **Stockfish Chess Engine**: Download and install the Stockfish chess engine. You can get it from the official Stockfish website: [https://stockfishchess.org/download/](https://stockfishchess.org/download/)
+4. **Stockfish Chess Engine**: Download and install the Stockfish chess engine. You can get it from the official Stockfish website: [https://stockfishchess.org/download/](https://stockfishchess.org/download/). Ensure to update the path to stockfish on line 61.
 
 ## How to Use
 
-1. **Clone the Repository**: git clone https://github.com/yourusername/chess-ai.git --->  cd chess-ai
+1. **Clone the Repository**: git clone https://github.com/hdunl/AIChess.git --->  cd chess-ai
 
 2. **Run the Application**: python main.py
 
