@@ -58,7 +58,7 @@ class DraggablePiece:
 class ChessApp:
     def __init__(self, root):
         self.board = chess.Board()
-        self.engine = chess.engine.SimpleEngine.popen_uci("C:/stockfish/stockfish/stockfish-windows-x86-64-avx2.exe")
+        self.engine = chess.engine.SimpleEngine.popen_uci("PATH_TO_STOCKFISH_EXECUTABLE")
 
         self.root = root
         self.root.title("Chess AI")
